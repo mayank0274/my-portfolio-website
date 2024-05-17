@@ -21,7 +21,7 @@ export const theme = extendTheme({
         _dark: "#8892b0",
       },
       highlightColor: {
-        default: "#5755FE",
+        default: "#5D13E7",
         _dark: "#64ffda",
       },
       borderColor: {

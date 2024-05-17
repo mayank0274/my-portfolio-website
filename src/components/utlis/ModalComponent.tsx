@@ -21,7 +21,9 @@ export const ModalComponent: React.FC<Props> = ({
   return (
     <Modal isOpen={isOpen} onClose={onClose} size={"full"}>
       <ModalOverlay />
-      <ModalContent background={"#0a192f"}>
+      <ModalContent
+        bgGradient={"linear-gradient(to bottom, #0a192f, #09555c);"}
+      >
         <ModalCloseButton color="white" size="lg" />
         <ModalBody>{children}</ModalBody>
       </ModalContent>

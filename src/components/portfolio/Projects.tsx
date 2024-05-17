@@ -88,7 +88,11 @@ const ProjectCard: React.FC<IProjectCardProps> = ({ project }) => {
         </Box>
       )}
 
-      <Text color={"subText"} fontSize={"13.5px"}>
+      <Text
+        color={"subText"}
+        fontSize={"13.5px"}
+        _groupHover={{ color: "highlightColor" }}
+      >
         {description}
       </Text>
 

@@ -42,6 +42,7 @@ const Introduction = (props: Props) => {
         md: "row",
         lg: "row",
       }}
+      gap={{ base: "13px", sm: "13px" }}
     >
       <Box
         width={{ base: "95%", sm: "95%", md: "50%", lg: "60%" }}
@@ -61,7 +62,7 @@ const Introduction = (props: Props) => {
         <Box display={"flex"} gap={"5px"} color={"subText"}>
           <EducationIcon width="20px" height="20px" fill={introIconColor} />
           <Text fontSize={"14px"}>
-            Bachelor&apos;s of Computer Applications ( 2021 - 24 )
+            Bachelor&apos;s of Computer Applications( 2021 - 24 )
           </Text>
         </Box>
       </Box>
