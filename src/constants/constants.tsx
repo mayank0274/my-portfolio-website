@@ -13,14 +13,25 @@ export const TECH_STACK: string[] = [
   "javascript",
   "typescript",
   "reactjs",
+  "nextjs",
   "nodejs",
   "expressjs",
   "mongodb",
   "mern stack",
   "rest api's",
+  "react native"
 ];
 
 export const PROJECTS_LIST: IProject[] = [
+  {
+    title: "iTracker",
+    githubUrl: "",
+    liveUrl: "",
+    description:
+      "A real time location sharing android application",
+    tags: ["typescript", "reactjs", "react native","nodejs","expressjs","scocket.io"],
+    highlightInfo: "",
+  },
   {
     title: "learnSlate",
     githubUrl: "https://github.com/mayank0274/learnSlate",
@@ -28,22 +39,7 @@ export const PROJECTS_LIST: IProject[] = [
     description:
       "A whiteboard application in react and fabricjs with functionalities like draw different shapes , insert image on canvas , open pdf on canvas for teaching and take notes during class",
     tags: ["javascript", "reactjs", "fabricjs", "whiteboard"],
-    highlightInfo: "under construction",
-  },
-  {
-    title: "e-Learn",
-    githubUrl: "",
-    liveUrl: "",
-    description:
-      "A LMS system in MERN stack where we can upload courses and users can purchase those courses. An admin panel also implemented to manage courses",
-    tags: [
-      "javascript",
-      "reactjs",
-      "nodejs",
-      "expressjs",
-      "mongodb",
-      "typescript",
-    ],
+    highlightInfo: "",
   },
   {
     title: "lets-talk",
@@ -55,7 +51,7 @@ export const PROJECTS_LIST: IProject[] = [
   },
   {
     title: "plugins for an open source code editor",
-    liveUrl: "https://acode.app/user/sharma.mayank0274@gmail.com",
+    liveUrl: "https://acode.app/plugin/acode.plugin.restapi",
     githubUrl: "https://github.com/mayank0274/api-tester",
     description:
       "Build some plugins/extensions for an open source android code editor like rest api tester , chatgpt plugin , color pallete generator , font icons etc",
